@@ -1,4 +1,4 @@
-### 🔹 BLOQUE 1 — Análisis de energía global y por banda
+# BLOQUE 1 — Análisis de energía global y por banda
 
 import numpy as np
 import matplotlib.pyplot as plt

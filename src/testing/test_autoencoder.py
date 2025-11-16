@@ -4,7 +4,6 @@ import numpy as np
 import torch.nn as nn
 from sklearn.metrics import roc_auc_score, precision_recall_fscore_support, confusion_matrix, roc_curve, auc
 import matplotlib.pyplot as plt
-from src.models.autoencoder import Autoencoder
 from src.config_loader import load_config
 import seaborn as sns
 import json
@@ -15,11 +14,11 @@ import datetime
 # ----------------------------
 cfg = load_config()
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-model_type = "conv"
+model_type = "dense"
 
 # Rutas
-RUN_DIR = "src/models/trained/run_20251029_193215"
-MODEL_PATH = "src/models/trained/run_20251029_193215/model.pth"
+RUN_DIR = "src/models/trained/run_20251116_192436"
+MODEL_PATH = "src/models/trained/run_20251116_192436/model.pth"
 TEST_DIR = cfg["paths"]["processed_data_test_dir"] 
 
 # ----------------------------

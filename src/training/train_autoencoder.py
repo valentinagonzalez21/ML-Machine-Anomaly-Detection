@@ -19,7 +19,7 @@ base_dir = cfg["paths"]["trained_models_dir"] # Carpeta base para guardar modelo
 os.makedirs(base_dir, exist_ok=True)
 
 # Tipo de modelo 
-model_type = "conv" # "dense" o "conv"
+model_type = "dense" # "dense" o "conv"
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu") # si hay GPU se usa, sino CPU
 

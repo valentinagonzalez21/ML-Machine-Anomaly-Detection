@@ -1,6 +1,6 @@
 paths:
   raw_data_dir: "data/raw_train"
-  processed_data_dir: "/data/processed_train"
+  processed_data_dir: "data/processed_train"
   raw_data_test_dir: "data/raw_test"
   processed_data_test_dir: "data/processed_test"
   trained_models_dir: "src/models/trained"
@@ -8,8 +8,8 @@ paths:
 audio:
   sample_rate: null    # null = use audio sample ate
   n_mels: 64
-  n_fft: 2048
-  hop_length: 128
+  n_fft: 1024
+  hop_length: 512
   power: 2.0
   normalize: false
 
