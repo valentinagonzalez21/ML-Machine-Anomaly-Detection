@@ -36,6 +36,13 @@ Project structure (relevant files/folders)
 
 Quick start
 
+Prev: 
+Download dataset.zip (https://umontevideo-my.sharepoint.com/:u:/g/personal/vgonzalez_correo_um_edu_uy/IQDsdHY29ysoSoEt6m4ZC4EEAUZ9Vzm7zaUjqDbA-Y4CWck?e=yIeB9w)
+Decompress dataset.zip and place in data folder so that it has this structure:
+- data
+    - raw_test
+    - raw_train
+
 1. Install dependencies
 
 2. Edit `configs/config.yaml` to set paths and hyperparameters for your environment.
